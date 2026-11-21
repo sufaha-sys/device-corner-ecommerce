@@ -1,1 +1,20 @@
+# دخل إلى مجلد المشروع
+cd "C:\Users\ASUS\OneDrive\المستندات\المشروع الافتراضي\device-corner-ecommerce"
 
+# تهيئة git (إذا لم تكن مهيأة مسبقاً)
+git init
+
+# أضف جميع الملفات
+git add .
+
+# commit أولي
+git commit -m "أول إصدار للمتجر - الأجهزة المستعملة والصيانة"
+
+# اربط المجلد المحلي بمستودع GitHub الخاص بك
+git remote add origin https://github.com/sufaha-sys/device-corner-ecommerce.git
+
+# переименِ الفرع إلى main
+git branch -M main
+
+# رفع الملفات إلى GitHub
+git push -u origin main
